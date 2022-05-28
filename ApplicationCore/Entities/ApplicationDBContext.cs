@@ -1,10 +1,12 @@
 ﻿using System;
+using ApplicationCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace ApplicationCore.Entities
 {
-    public partial class ApplicationDBContext : DbContext
+    public partial class ApplicationDBContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDBContext()
         {

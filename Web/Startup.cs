@@ -1,3 +1,4 @@
+using ApplicationCore.Identity;
 using ApplicationCore.Interfaces;
 using Infrastructure.Identity;
 using Infrastructure.Services;

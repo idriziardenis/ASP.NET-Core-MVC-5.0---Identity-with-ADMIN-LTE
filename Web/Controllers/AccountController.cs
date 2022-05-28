@@ -11,6 +11,7 @@ using System;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Infrastructure.Identity;
+using ApplicationCore.Identity;
 
 namespace Web.Controllers
 {
